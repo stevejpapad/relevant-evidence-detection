@@ -25,8 +25,7 @@ ensure_directories_exist(*directories_to_check)
 # save_verite_file(data_path = '/VERITE')
 
 ### Extract CLIP features for NewsCLIPings
-extract_encoder_features(data_path=DATA_PATH, images_path=DATA_PATH+'VisualNews/origin/', 
-                         data_name=DATA_NAME, output_path=EVIDENCE_PATH)
+extract_encoder_features(data_path=DATA_PATH, images_path=DATA_PATH+'VisualNews/origin/', data_name=DATA_NAME, output_path=EVIDENCE_PATH)
 load_merge_evidence_data(SOURCE_EVIDENCE_PATH, DATA_PATH, DATA_NAME)
 
 ### Extract CLIP features for VERITE
