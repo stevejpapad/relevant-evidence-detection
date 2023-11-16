@@ -27,7 +27,7 @@ ensure_directories_exist(*directories_to_check)
 ### Extract CLIP features for NewsCLIPings
 extract_encoder_features(data_path=DATA_PATH, images_path=DATA_PATH+'VisualNews/origin/', 
                          data_name=DATA_NAME, output_path=EVIDENCE_PATH)
-load_merge_evidence_data(SOURCE_EVIDENCE_PATH, data_path, DATA_NAME)
+load_merge_evidence_data(SOURCE_EVIDENCE_PATH, DATA_PATH, DATA_NAME)
 
 ### Extract CLIP features for VERITE
 extract_encoder_features(data_path=VERITE_PATH, images_path=VERITE_PATH, data_name='VERITE', output_path=VERITE_PATH)
