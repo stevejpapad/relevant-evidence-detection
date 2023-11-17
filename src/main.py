@@ -16,13 +16,13 @@ ensure_directories_exist(*directories_to_check)
 
 ### The collected evidence are provided. But if you need to re-collect them, uncomment the following:
 ### It will require the installation of Google API with 'pip install google-api-python-client'
-# collect_evidence(data_path = '/VERITE', API_KEY = "YOUR_KEY", CUSTOM_SEARCH_ENGINE_ID = "YOUR_ID")
+# collect_evidence(data_path = VERITE_PATH, API_KEY = "YOUR_KEY", CUSTOM_SEARCH_ENGINE_ID = "YOUR_ID")
 
 ### Ιf you need to download the VERITE images, uncomment the following: 
-# download_images(data_path = '/VERITE')
+# download_images(data_path = VERITE_PATH)
 
 ### The 'VERITE_with_evidence.csv' file is provided. But if you need to re-create it, uncomment the following: 
-# save_verite_file(data_path = '/VERITE')
+# save_verite_file(data_path = VERITE_PATH)
 
 ### Extract CLIP features for NewsCLIPings
 extract_encoder_features(data_path=DATA_PATH, images_path=DATA_PATH+'VisualNews/origin/', data_name=DATA_NAME, output_path=EVIDENCE_PATH)
