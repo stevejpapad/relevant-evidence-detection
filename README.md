@@ -20,11 +20,11 @@ cd relevant-evidence-detection
 
 ## Datasets
 
-If you want to reproduce the experiments on the paper it is necassary to first download the following datasets and save them in their respective folder: 
+If you want to reproduce the experiments on the paper it is necessary to first download the following datasets and save them in their respective folder: 
 - VisualNews -> https://github.com/FuxiaoLiu/VisualNews-Repository -> `data/VisualNews/`
 - NewsCLIPings -> https://github.com/g-luo/news_clippings -> `data/news_clippings/`
 - NewsCLIPings evidence -> https://github.com/S-Abdelnabi/OoC-multi-modal-fc -> `data/news_clippings/queries_dataset/`
-- VERITE -> https://github.com/stevejpapad/image-text-verification -> `data/VERITE/` (Although we provide all necassary files as well as the external evidence) 
+- VERITE -> https://github.com/stevejpapad/image-text-verification -> `data/VERITE/` (Although we provide all necessary files as well as the external evidence) 
 
 ## Reproducibility
 To prepare the datasets, extract CLIP features and reproduce all experiments run: 
