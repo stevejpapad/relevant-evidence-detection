@@ -26,6 +26,8 @@ If you want to reproduce the experiments on the paper it is necessary to first d
 - NewsCLIPings evidence -> https://github.com/S-Abdelnabi/OoC-multi-modal-fc -> `data/news_clippings/queries_dataset/`
 - VERITE -> https://github.com/stevejpapad/image-text-verification -> `data/VERITE/` (Although we provide all necessary files as well as the external evidence) 
 
+If you encounter any problems while downloading and preparing VERITE (e.g., broken image URLs), please contact stefpapad@iti.gr
+
 ## Reproducibility
 To prepare the datasets, extract CLIP features and reproduce all experiments run: 
 ```python src/main.py``` 
